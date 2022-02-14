@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "319392e2-9cbc-46be-b3dd-5cd43127f9dc",
+		"name": "MetricToImperial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Convert cels To Fahren",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/metricToImperial/celsToFahren?unit=37.5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"metricToImperial",
+						"celsToFahren"
+					],
+					"query": [
+						{
+							"key": "unit",
+							"value": "37.5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convert Cm To Inch",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/metricToImperial/cmToInch?unit=80",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"metricToImperial",
+						"cmToInch"
+					],
+					"query": [
+						{
+							"key": "unit",
+							"value": "80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convert Meters To Feet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/metricToImperial/metersToFeet?unit=80",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"metricToImperial",
+						"metersToFeet"
+					],
+					"query": [
+						{
+							"key": "unit",
+							"value": "80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convert Km To Miles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/metricToImperial/kmToMiles?unit=80",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"metricToImperial",
+						"kmToMiles"
+					],
+					"query": [
+						{
+							"key": "unit",
+							"value": "80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convert Litre To Gallon",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/metricToImperial/litreToGallon?unit=100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"metricToImperial",
+						"litreToGallon"
+					],
+					"query": [
+						{
+							"key": "unit",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convert KG to Pounds",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/metricToImperial/kgToPound?unit=80",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"metricToImperial",
+						"kgToPound"
+					],
+					"query": [
+						{
+							"key": "unit",
+							"value": "80"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
